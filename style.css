@@ -6,7 +6,11 @@
     margin-left:auto;
 }
 
-
+img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
 
 /* create a simple white box, and add the shadow for the initial state */
 .box {
@@ -48,6 +52,18 @@
 .box:hover::after{
     opacity:1;
 }
+
+.text {
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    left: 30%;
+}
+
+
+
 
 
 @media (min-width: 768px) {
