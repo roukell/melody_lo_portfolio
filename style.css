@@ -62,9 +62,9 @@ img {
     left: 30%;
 }
 
-
-
-
+#myPhoto {
+    border-radius: 50%;
+}
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
