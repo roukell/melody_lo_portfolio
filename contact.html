@@ -19,13 +19,10 @@
   <!-- my own css and script -->
   <link rel="stylesheet" href="style.css">
 
+
   <style>
     .container-fluid {
       padding: 30px 20px;
-      position: absolute;
-      top: 30%;
-      left: 80%;
-      transform: translate(-50%, -50%);
     }
   </style>
 
@@ -62,56 +59,57 @@
 
     </div>
   </nav>
+  <div class="form-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="form-wrapper">
+            <form>
+              <h2>Get In Touch</h2>
+              <!-- inputs -->
+              <div class="form-group">
+                <label class="sr-only" for="name">Name</label>
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                  </div>
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="email">Email</label>
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  </div>
+                  <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="subject">Subject</label>
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  </div>
+                  <input type="text" class="form-control" id="subject" placeholder="Subject">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="message">Message</label>
+                <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+              </div>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <div class="form-wrapper">
-          <form>
-            <h2>Get In Touch</h2>
-            <!-- inputs -->
-            <div class="form-group">
-              <label class="sr-only" for="name">Name</label>
-              <div class="input-group">
-                <div class="input-group-addon">
-                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                </div>
-                <input type="text" class="form-control" id="name" placeholder="Name">
+              <!-- buttons -->
+              <div class="btn-group pull-right" role="group">
+                <button type="reset" class="btn btn-default">
+                  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Reset
+                </button>
+                <button type="submit" class="btn btn-primary submit">
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Submit
+                </button>
               </div>
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="email">Email</label>
-              <div class="input-group">
-                <div class="input-group-addon">
-                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                </div>
-                <input type="text" class="form-control" id="email" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="subject">Subject</label>
-              <div class="input-group">
-                <div class="input-group-addon">
-                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                </div>
-                <input type="text" class="form-control" id="subject" placeholder="Subject">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="message">Message</label>
-              <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
-            </div>
-
-            <!-- buttons -->
-            <div class="btn-group pull-right" role="group">
-              <button type="reset" class="btn btn-default">
-                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Reset
-              </button>
-              <button type="submit" class="btn btn-primary submit">
-                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Submit
-              </button>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </div>
