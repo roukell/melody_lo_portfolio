@@ -8,7 +8,7 @@ Clicking these two buttons in navbar will take you to my personal information pa
 
 ## Portfolio
 Portfolio button will take you to the projects that I am currenting working on. 
-FYI, my portfolio is incompleted, so you will see three clickable images that has cool shadow and enlarge effect that takes you to no where. 
+FYI, my portfolio is incompleted, so you will see three clickable images that have cool shadow and enlarge effects that take you to no where. 
 
 ## Contact
 This is where you can contact me via the webpage. Again, the contact form is not in action yet.
