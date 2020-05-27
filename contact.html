@@ -17,82 +17,102 @@
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <link rel="stylesheet" href="style.css">
 
+  <style>
+    .container-fluid {
+  padding: 30px 20px;
+  position:absolute;
+  top:30%;
+  left:80%;
+  transform: translate(-50%, -50%);
+}
+  </style>
+  <script>
+    $('.form-wrapper button.submit').click(function(e){
+  // prevent default submit
+  e.preventDefault();
+});
+  </script>
+
 
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Melody Lo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Melody Lo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="contact.html">Contact</a>
-          </li>
-        </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="contact.html">Contact</a>
+        </li>
+      </ul>
 
-      </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div class="wrap">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="well-sm">
-            <form class="form-horizontal" action="" method="post">
-              <fieldset>
-                <legend class="text-center">Contact Me</legend>
-
-                <!-- Name input-->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="name">Name</label>
-                  <div class="col-md-9">
-                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="form-wrapper">
+          <form>
+            <!-- inputs -->
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                 </div>
-
-                <!-- Email input-->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                  <div class="col-md-9">
-                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                  </div>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email</label>
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
                 </div>
-
-                <!-- Message body -->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="message">Your message</label>
-                  <div class="col-md-9">
-                    <textarea class="form-control" id="message" name="message"
-                      placeholder="Please enter your message here..." rows="5"></textarea>
-                  </div>
+                <input type="text" class="form-control" id="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="subject">Subject</label>
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
                 </div>
-
-                <!-- Form actions -->
-                <div class="form-group">
-                  <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div>
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+            </div>
+  
+            <!-- buttons -->
+            <div class="btn-group pull-right" role="group">
+              <button type="reset" class="btn btn-default">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Reset
+              </button>
+              <button type="submit" class="btn btn-primary submit">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Submit
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-
-
   </div>
+
 
 
 </body>
