@@ -15,22 +15,25 @@
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <!-- my own css and script -->
   <link rel="stylesheet" href="style.css">
 
   <style>
     .container-fluid {
-  padding: 30px 20px;
-  position:absolute;
-  top:30%;
-  left:80%;
-  transform: translate(-50%, -50%);
-}
+      padding: 30px 20px;
+      position: absolute;
+      top: 30%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+    }
   </style>
+
   <script>
-    $('.form-wrapper button.submit').click(function(e){
-  // prevent default submit
-  e.preventDefault();
-});
+    $('.form-wrapper button.submit').click(function (e) {
+      // prevent default submit
+      e.preventDefault();
+    });
   </script>
 
 
@@ -98,7 +101,7 @@
               <label class="sr-only" for="message">Message</label>
               <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
             </div>
-  
+
             <!-- buttons -->
             <div class="btn-group pull-right" role="group">
               <button type="reset" class="btn btn-default">
