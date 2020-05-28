@@ -1,125 +1,114 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-  <title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
     Melody Lo | Contact
   </title>
-  <!-- bootsrap css link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 
-  <!-- bootsrap js link -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
-  </script>
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(207, 213, 219);
+   color: white;
+   text-align: center;
+}
 
-  <!-- my own css and script -->
-  <link rel="stylesheet" href="style.css">
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  <style>
-    .container-fluid {
-      padding: 30px 20px;
-    }
-  </style>
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: lightpink;
+}
 
-  <script>
-    $('.form-wrapper button.submit').click(function (e) {
-      // prevent default submit
-      e.preventDefault();
-    });
-  </script>
-
-
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
 </head>
-
 <body>
-  <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Melody Lo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="form-wrapper">
-            <form>
-              <h2>Get In Touch</h2>
-              <!-- inputs -->
-              <div class="form-group">
-                <label class="sr-only" for="name">Name</label>
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                  </div>
-                  <input type="text" class="form-control" id="name" placeholder="Name">
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="email">Email</label>
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                  </div>
-                  <input type="text" class="form-control" id="email" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="subject">Subject</label>
-                <div class="input-group">
-                  <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                  </div>
-                  <input type="text" class="form-control" id="subject" placeholder="Subject">
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="sr-only" for="message">Message</label>
-                <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
-              </div>
-
-              <!-- buttons -->
-              <div class="btn-group pull-right" role="group">
-                <button type="reset" class="btn btn-default">
-                  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Reset
-                </button>
-                <button type="submit" class="btn btn-primary submit">
-                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Submit
-                </button>
-              </div>
-            </form>
-          </div>
+        <a class="navbar-brand" href="index.html">Melody Lo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#"></a>
+            </li>
+          </ul>
         </div>
+      </nav>
+
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
       </div>
-    </div>
-  </div>
 
 
-
+<div class="footer">
+  <p>Creativity is the key</p>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
-
-
-</html>
+</html> 
