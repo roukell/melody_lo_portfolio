@@ -1,7 +1,7 @@
-# homework2 Responsive Portfolio
-Unit 02 CSS and Bootstrap Homework: Responsive Portfolio.
-In homework2, I applied knowledge of HTML and CSS that I learned in class, and created my first responsive portfolio. 
-The contents are responsive to various sizes of browser and device. Give it a try~!
+# Portfolio
+Portfolio.
+II applied knowledge of HTML and CSS that I learned in class, and created my first responsive portfolio. 
+The contents are responsive to various sizes of browser and device.
 
 ## Melody Lo | About
 Clicking these two buttons in navbar will take you to my personal information page, which has some fun fact about me.
