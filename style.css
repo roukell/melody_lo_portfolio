@@ -127,6 +127,13 @@ input[type=text], select, textarea {
       background-color: lightgrey;
   }
 
+  #github-icon {
+    margin: auto;
+    padding: 5px;
+    font-size: 38px;
+    color: lightslategray;
+  }
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
