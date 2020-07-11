@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  
 </head>
 
 <body>
@@ -27,11 +27,11 @@
           <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="#section2">Portfolio</a>
         </li>
       
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#section3">Contact</a>
         </li>
       
       </ul>
@@ -39,25 +39,102 @@
     </div>
   </nav>
   <div class="container">
-    <div class="col-md-4 offset-md-4">
-      <img id="myPhoto" src="img/about-min.JPG" alt="this is a photo of Melody" class="responsive">
+      <div class="main" id="section1">
 
-      <section class="row" id="indexRow1">
+        <div class="photoDiv">
+          <img id="myPhoto" src="img/about-min.JPG" alt="photo of Melody" class="responsive">
+        </div>
+
+      <div class="introDiv">
         <h1>Melody Lo</h1>
-      </section>
-      <section class="row">
-        <h2>Future Kick-ass Web Developer/ Designer</h2>
-      </section>
-      <section class="row">
+        <h2>Full Stack Web Developer</h2>
         <p>
-          I am a down to earth human being, funny and hardworking. My goal is to become an outstanding Web Developer/
-          Designer in the future.
-          My journey of web-design has just started, and I'm so excited about what I am going to create! Because I
-          believe I can create something really cool and amazing!
+          Hello, welcome to my website.
+          <br>
+          I am a Web Developer based in Sydney, Australia. 
+          <br>
+          I am experience in HTML, CSS, Javascript, JQuery, API, Node.js, React.js, mySQL, Bootstrap, and responsive design.
+          <br>
+          My passion for web development can be traced back to my pre-professinol days.
+          <br>
+          I remember my very first time building a website was in middle school, we had an instructor teaching us how to build a blog.
+          <br>
+          The excitment of being able to build and be creative, was something that I would never forget.
+          <br>
+          Although I had somehow lost track of web development, I realised that it is important to work with something that is enjoyable.
+          <br>
+          That's why after many years of working in medical imaging, I have decided to get back to web development.
+          <br>
+          My background in medical has helped me developed strong problem solving skills, ability to work with strict deadlines, and outstanding time managment skills.
+          <br> 
+          I am highly motivated to create functional websites, and would love to gain experience at a innovative organisation, in order to develop creative, functional, and profitable website experiences for people.
         </p>
-      </section>
+      </div>
+    </div>
 
+    <div class="main" id="section2">
+      <div class="row md-2">
+        <div class="col-md-4">
+            <div class="box">
+                <a href="https://roukell.github.io/weather_dashboard/" target="_blank">
+                <img id="weather_dashboard" src="img/weather_dashboard_logo.png" alt="weather_dashboard_logo" class="responsive">
+                <div class="overlay">
+                    <!-- <div class="text"></div> -->
+                </div>
+                </a>
+            </div>
+        </div>
 
+        <div class="col-md-4">
+            <div class="box">
+                <a href="https://roukell.github.io/vbloggers_around_you/" target="_blank">
+                    <img id="vblogger" src="img/v_bloggers_around_you.png" alt="v_bloggers_around_you" class="responsive">
+                <div class="overlay">
+                    <!-- <div class="text"></div> -->
+                </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box">
+                <a href="https://roukell.github.io/my_day_scheduler/" target="_blank">
+                <img id="day_scheduler" src="img/day_scheduler.png" alt="my_day_scheduler" class="responsive">
+                <div class="overlay">
+                    <!-- <div class="text"></div> -->
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+
+    <div class="main" id="section3">
+      <div class="container-contact">
+        <form action="action_page.php" method="post">
+    
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+    
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <a class="btn btn-light" href="errorPage.html" role="button">Submit</a>
+    
+        </form>
+      </div>
     </div>
 
     <div class="footer">
