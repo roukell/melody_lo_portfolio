@@ -17,8 +17,8 @@ The contents are responsive to various sizes of browser and device.
 
 ## Installation
 
-There are no installation guide. Please simply head to the following link:
-(https://roukell.github.io/melody_lo_portfolio/) 
+There are no installation required. Please simply head to the following link:
+https://roukell.github.io/melody_lo_portfolio/
 
 
 ## Usage 
@@ -29,13 +29,13 @@ You can view contents by scolling down, or click on the buttons in navbar and fo
 ![img](./img/portfolio_screenshot.png)
 
 ## Content
-About me
-Project
-Resume
-Contact Me (*currently under construction)
-Git Hub
-LinkedIn
-Email Me Directly (by clicking the paper airplane icon)
+* About me
+* Project
+* Resume
+* Contact Me (*currently under construction)
+* Git Hub
+* LinkedIn
+* Email Me Directly (by clicking the paper airplane icon)
 
 ## Author
 Melody Lo
