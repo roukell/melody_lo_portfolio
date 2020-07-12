@@ -96,8 +96,7 @@
   width: 300px;
 }
 
-#section2-content {
-  height: 100vh;
+.section2-container {
   margin: auto;
   padding: 5%;
   display: grid;
@@ -105,7 +104,7 @@
   grid-template-rows: 420px 420px;
 }
 
-#section3-content {
+#section3-content, #section3-content {
   height: 100vh;
   margin: auto;
   padding: 5%;
@@ -162,7 +161,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container-contact {
+.section3-container {
   width: fit-content;
   margin: 0 auto;
   border-radius: 5px;

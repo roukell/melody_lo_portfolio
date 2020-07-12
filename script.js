@@ -6,11 +6,13 @@ function smoothScroll(target, duration) {
     let distance = targetPosition - startPosition;
     let startTime = null;
 
+    console.log(targetPosition);
+
     console.log(targetPosition, startPosition, distance, startTime);
 
     function animation(currentTime) {
         if (startTime === null) {
-            startTime === currentTime;
+            startTime = currentTime;
             console.log(currentTime);
         }
         let timeElapsed = currentTime - startTime;
@@ -30,7 +32,6 @@ function ease(t, b, c, d) {
 };
 
 requestAnimationFrame(animation);
-
 }
 
 const clickedAbout = document.querySelector("#nav-about");
@@ -39,14 +40,14 @@ const clickedContact = document.querySelector("#nav-contact");
 
 // when a button is clicked, will ease into the target section
 clickedAbout.addEventListener("click", function(){
-    smoothScroll("#section1-content", 4000);
+    smoothScroll("#section1-content", 2000);
 })
 
 clickedProject.addEventListener("click", function(){
-    smoothScroll("#section2-content", 4000);
+    smoothScroll("#section2-content", 2000);
 })
 
 clickedContact.addEventListener("click", function(){
-    smoothScroll("#section3-content", 4000);
+    smoothScroll("#section3-content", 2000);
 })
 
