@@ -1,17 +1,44 @@
 # Portfolio
-Portfolio.
-II applied knowledge of HTML and CSS that I learned in class, and created my first responsive portfolio. 
+
+## Description 
+
+This is Melody's portfolio. I applied knowledge of HTML, CSS, and Javascript that I learned, and created my first responsive portfolio. 
 The contents are responsive to various sizes of browser and device.
 
-## Melody Lo | About
-Clicking these two buttons in navbar will take you to my personal information page, which has some fun fact about me.
 
-## Portfolio
-Portfolio button will take you to the projects that I am currenting working on. 
-FYI, my portfolio is incompleted, so you will see three clickable images that have cool shadow and enlarge effects that take you to no where. 
+## Table of Contents (Optional)
 
-## Contact
-This is where you can contact me via the webpage. Again, the contact form is not in action yet.
 
-## Words from Author
-Even though my page is not finished yet, I truely hope that you, my guests, will enjoy my very first webpage/portfolio.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Content](#content)
+* [Author](#author)
+
+
+## Installation
+
+There are no installation guide. Please simply head to the following link:
+(https://roukell.github.io/melody_lo_portfolio/) 
+
+
+## Usage 
+
+To view portfolio, open the link and it will bring you to the home page. 
+You can view contents by scolling down, or click on the buttons in navbar and footer. 
+
+![img](./img/portfolio_screenshot)
+
+## Content
+About me
+Project
+Resume
+Contact Me (*currently under construction)
+Git Hub
+LinkedIn
+Email Me Directly (by clicking the paper airplane icon)
+
+## Author
+Melody Lo
+ 
+
+
