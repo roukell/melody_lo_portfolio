@@ -24,6 +24,7 @@ function smoothScroll(target, duration) {
         }
 }
 
+// effect of smooth scroll
 function ease(t, b, c, d) {
 	t /= d/2;
 	if (t < 1) return c/2*t*t*t*t*t + b;
