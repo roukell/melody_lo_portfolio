@@ -6,7 +6,7 @@ This is Melody's portfolio. I applied knowledge of HTML, CSS, and Javascript tha
 The contents are responsive to various sizes of browser and device.
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 * [Installation](#installation)
