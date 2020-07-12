@@ -116,11 +116,19 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: lightsteelblue;
+  background-color: transparent;
   text-align: center;
   font-size: 38px;
   color: lightslategray;
-  
+  display: grid;
+  grid-template-columns: 95% 5%;
+  grid-template-rows: auto;
+}
+
+.footer-text {
+  font-size: 18px;
+  margin: auto;
+  margin-top: 10%;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -180,7 +188,6 @@ input[type=submit]:hover {
   padding: 5px;
   font-size: 38px;
   color: lightslategray;
-
 }
 
 .main {
@@ -207,7 +214,6 @@ input[type=submit]:hover {
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
-
 
 
 @media (max-width: 800px) {
