@@ -26,7 +26,7 @@ There are no installation guide. Please simply head to the following link:
 To view portfolio, open the link and it will bring you to the home page. 
 You can view contents by scolling down, or click on the buttons in navbar and footer. 
 
-![img](./img/portfolio_screenshot)
+![img](./img/portfolio_screenshot.png)
 
 ## Content
 About me
