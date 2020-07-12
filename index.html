@@ -25,14 +25,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#section1">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" id="nav-about" href="#">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section2">Project</a>
+          <a class="nav-link" id="nav-project" href="#">Project</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#section3">Contact</a>
+          <a class="nav-link" id="nav-contact" href="#">Contact</a>
         </li>
 
       </ul>
@@ -41,20 +41,21 @@
   </nav>
 
   <div class="container">
-    <div class="main" id="section1" class="responsive">
+    <div class="main" id="section1-content">
       <div class="section1-container">
 
         <div class="photoDiv">
-          <img id="myPhoto" class="responsive" src="img/about-min.JPG" alt="photo of Melody">
+          <img class="responsive" id="myPhoto" src="img/about-min.JPG" alt="photo of Melody">
         </div>
 
-        <div class="introDiv" class="responsive">
+        <div class="introDiv">
           <h1>Melody Lo</h1>
           <h2>Full Stack Web Developer</h2>
           <p>
             Hello, welcome to my portfolio.
             <br>
-            I am a Web Developer based in Sydney, Australia, experience in HTML, CSS, Javascript, JQuery, API, Node.js, React.js, mySQL, Bootstrap, and responsive
+            I am a Web Developer based in Sydney, Australia, experience in HTML, CSS, Javascript, JQuery, API, Node.js,
+            React.js, mySQL, Bootstrap, and responsive
             design.
             <br>
             My passion for web development can be traced back to my pre-professinol days.
@@ -80,7 +81,7 @@
       </div>
     </div>
 
-    <div class="main" id="section2" class="responsive">
+    <div class="main" id="section2-content">
 
       <div class="box">
         <a href="https://roukell.github.io/weather_dashboard/" target="_blank">
@@ -112,43 +113,43 @@
     </div>
 
 
-      <div class="main" id="section3" class="responsive">
-        <div class="container-contact">
-          <form action="#" method="post">
-            <h2>Contact Me</h2>
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+    <div class="main" id="section3-content">
+      <div class="container-contact">
+        <form action="#" method="post">
+          <h2>Contact Me</h2>
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
 
-            <label for="email">Email</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your email...">
+          <label for="email">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email...">
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
-            <a class="btn btn-light" href="#" role="button">Submit</a>
-          </form>
-        </div>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+          <a class="btn btn-light" href="#" role="button">Submit</a>
+        </form>
       </div>
+    </div>
 
     <div class="footer">
       <a href="index.html"><i class="fas fa-home" id="footer-icon"></i></a>
       <a href="https://github.com/roukell" target="_blank"><i class="fab fa-github" id="footer-icon"></i></a>
-      <a href="https://www.linkedin.com/in/roukell/" target="_blank"><i class="fab fa-linkedin"
-          id="footer-icon"></i></a>
+      <a href="https://www.linkedin.com/in/roukell/" target="_blank"><i class="fab fa-linkedin" id="footer-icon"></i></a>
       <a href="#section3" target="_blank"><i class="fas fa-envelope" id="footer-icon"></i></a>
     </div>
 
   </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-    <script src="https://kit.fontawesome.com/1ac19bcbef.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/1ac19bcbef.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 
 

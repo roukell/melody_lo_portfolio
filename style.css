@@ -65,7 +65,7 @@
   /* left: 30%; */
 }
 
-#section1 {
+#section1-content {
   height: 100vh;
 }
 
@@ -96,7 +96,7 @@
   width: 300px;
 }
 
-#section2 {
+#section2-content {
   height: 100vh;
   margin: auto;
   padding: 5%;
@@ -105,7 +105,7 @@
   grid-template-rows: 420px 420px;
 }
 
-#section3 {
+#section3-content {
   height: 100vh;
   margin: auto;
   padding: 5%;
@@ -172,6 +172,7 @@ input[type=submit]:hover {
 
 .navbar {
   background-color: transparent;
+  position: fixed;
 }
 
 #footer-icon {
@@ -218,7 +219,7 @@ input[type=submit]:hover {
     margin: auto;
   }
 
-  #section1, #section2, #section3 {
+  #section1-content, #section2-content, #section3-content {
     height: auto;
   }
 
@@ -228,7 +229,7 @@ input[type=submit]:hover {
     object-fit: cover;
   }
 
-  #section3 {
+  #section3-content {
     padding: 0%;
   }
 
