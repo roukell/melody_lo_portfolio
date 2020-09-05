@@ -97,11 +97,16 @@
 }
 
 .section2-container {
+  width: 100%;
   margin: auto;
-  padding: 5%;
+  margin-left: 10px;
+  padding: 25%;
+  padding-left: 10px;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 420px 420px;
+  grid-template-columns: 450px 450px 450px 450px 450px 450px 450px;
+  grid-template-rows: 100%;
+  height: 100vh;
+  justify-items: center;
 }
 
 #section3-content, #section3-content {
