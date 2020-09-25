@@ -943,6 +943,7 @@ footer .copyright {
     padding: 0;
  }
 footer .copyright li {
+    color: #525252;
     display: inline-block;
     margin: 0;
     padding: 0;
