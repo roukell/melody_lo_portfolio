@@ -1,0 +1,143 @@
+{
+  "main": {
+    "name":"Melody Lo",
+    "description":"I am a Sydney based Web Developer. I use react to develop pages. Welcome to my portfolio",
+    "image":"profilepic.jpg",
+    "bio":"My name is Melody Lo. I am a Junior Web Developer and I am an accomplished coder and programmer. I enjoy using my skills to solve real life problems and build functional websites. I graduated from the University of Sydney The Coding Bootcamp in 2020 with a Master's Degree in Nuclear Medicine. While in the bootcamp, I applied the knowledge that I have learned, and created several functional websites. I have experience in using HTML, CSS, Javascript, JQuery, API, Express, Node.js, React, mySQL, Bootstrap, and responsive design. I am obsessed with building websites that are highly interactive and with beautiful UI. I spend most of my free time developing my own project. I enjoy watching sci-fi movies and animation, looking into new tech products online, working out and eating nice food at local restaurants.",
+    "contactmessage":"Any questions? Contact me!",
+    "email": "yiling.melody.lo@gmail.com",
+    "phone": "0457 456 266",
+    "github":"https://github.com/roukell",
+    "project":"https://github.com/roukell/melody_lo_portfolio",
+    "address":{
+      "street":"Rutledge Street",
+      "city":"Eastwood",
+      "state":"NSW",
+      "zip": "2122"
+    },
+    "website": "https://roukell.github.io/melody_lo_portfolio/",
+    "resumedownload":"https://docs.google.com/document/d/1YKEJuD0zNYsoyLNUBiFoy4sHzG5fs56CXmOLfGj6l8w/edit?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/roukell",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/roukell",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/yilingmelodylo",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/roukell/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/roukell",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"My skills",
+    "education":[
+      {
+        "school":"The University of Sydney Coding Bootcamp",
+        "degree":"Full Stack Web Development Certificate",
+        "graduated":"November 2020",
+        "description":"Throughout the course, I have learned many technical skills like coding with HTML, CSS, JavaScript, JQuery, web API, Ajax, Node.js, React, mySQL, MongoDB, and Bootstrap"  
+      },
+      {
+        "school":"The University of Sydney",
+        "degree":"Master of Nuclear Medicine",
+        "graduated":"March 2014",
+        "description":"I have gained multiple clinical skills specifically for Nuclear Medicine, as well as developed effective communication skills, team work understanding, time management and outstanding problem solving abilities"
+      }
+    ],
+    "work":[
+      {
+        "company":"Bootcamp Group Project",
+        "title":"Want to Watch Manager",
+        "years":"September 2020 - September 2020",
+        "description":"Want-to-Watch Movie Manager is a website which allows users to search movies available in the market and keep track of them. My role in the team was the project lead. I contributed to the website by applying knowledge of omdbAPI, mySQL and applied Google Dialogflow chatbot. Tools: Node.js, Express, EJS, MySQL, Sequelize ORM, Heroku, Dialogflow, omdb API, JQuery, Passport, Bootstrap. Find project details on GitHub: https://github.com/roukell/Want-to-Watch-Series-Manager"
+      },
+      {
+        "company":"Bootcamp Group Project",
+        "title":"V-bloggers Around You",
+        "years":"July 2020 - July 2020",
+        "description":"V-bloggers Around You allows business owners to search local youtubers who can help them promote their business. I contributed to the website by applying Google map and Youtube API. Created user workflow chart and organised presentation slides. Tools: HTML, CSS, Javascript, JQuery fb, Foundation, Google map API, Youtube API, Canva. Find project details on GitHub: https://github.com/roukell/vbloggers_around_you"
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"HTML5",
+        "level":"70%"
+      },
+      {
+        "name":"CSS3",
+        "level":"60%"
+      },
+      {
+        "name":"JQuery",
+        "level":"70%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"80%"
+      },
+      {
+        "name":"mySQL",
+        "level":"75%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"75%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Want to Watch Manager",
+        "category":"A website which allows users to search movies available in the market and keep track of them",
+        "image":"movie_manager_screenshot.png",
+        "url":"https://damp-dusk-40026.herokuapp.com/"
+      },
+      {
+        "title":"V-bloggers Around You",
+        "category":"V-bloggers Around You allows business owners to search local youtubers who can help them promote their business",
+        "image":"v_bloggers_screenshot.png",
+        "url":"https://roukell.github.io/vbloggers_around_you/"
+      },
+      {
+        "title":"Weather Dashboard",
+        "category":"Weather Dashboard searches current and 5 days forecast of the desired city.",
+        "image":"weather_dash_board_screenshot.png",
+        "url":"https://roukell.github.io/weather_dashboard/"
+      },
+      {
+        "title":"Burger Logger",
+        "category":"Burger Logger is a restaurant app that allow users to enter their favourite burger name.",
+        "image":"burger_preview.png",
+        "url":"https://serene-hamlet-38122.herokuapp.com/"
+      },
+      {
+        "title":"Employee Summary",
+        "category":"This app helps you generate a webpage that display your team's basic information. It provides quick access to emails and GitHub profiles.",
+        "image":"employee_preview.png",
+        "url":"https://roukell.github.io/employee_summary/output/team.html"
+      }
+    ]
+  }
+}
