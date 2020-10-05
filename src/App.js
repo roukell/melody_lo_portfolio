@@ -16,14 +16,14 @@ const App = () => {
     <Router>
       <Navbar className='stickyNavbar' />
       <Switch>
-        <Route path="/about">
+        <Route path="https://melodylo.com/about">
           <About />
         </Route>
-        <Route path="/">
+        <Route path="https://melodylo.com/">
           <Home />
           <Project />
         </Route>
-        <Route path="/project">
+        <Route path="https://melodylo.com/project">
           <Home />
           <Project />
         </Route>
