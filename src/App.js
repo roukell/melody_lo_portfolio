@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 const App = () => {
 
   return (
-    <Router>
+    <Router basename='/'>
       <Navbar className='stickyNavbar' />
       <Switch>
         <Route path="/about">
