@@ -1,8 +1,12 @@
-  # Portfolio
+  # My Portfolio
   ![License](https://img.shields.io/github/license/roukell/melody_lo_portfolio)
+
+  ## Preview
+  ![img](./public/img/preview.png)
 
   ## Description
   * Welcome to my portfolio. Here you get to know more about Melody and the works that she has done.
+  * Visit: https://melodylo.com
 
   ## Table of Contents
   * [Usage](#Usage)
@@ -12,7 +16,6 @@
 
 
   ## Usage
-  * To view my portfolio, visit: melodylo.com
   * To view my resume, click: Resume
   * To view my works, click: Project
   * To send me an email, click: Contact
