@@ -14,6 +14,13 @@ const projectData = [
     'image': 'v_bloggers_screenshot.png'
 },
 {
+    'title': 'Google Books Search',
+    'description': 'Google Books Search is a MERN application that allows users to search books, view book details on Google Books via external link, and save the interested books for future reference.',
+    'github': 'https://github.com/roukell/google_book_search',
+    'deployedApp': 'https://pure-sands-91326.herokuapp.com/',
+    'image': 'google_books_search.png'
+},
+{
     'title': 'Employee Directory',
     'description': 'Employee Directory assists employers to view their entire employee directory at once and provides quick access to employee information.',
     'github': 'https://github.com/roukell/employee_directory',
