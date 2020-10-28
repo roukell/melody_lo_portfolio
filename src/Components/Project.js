@@ -9,7 +9,7 @@ class Projects extends Component {
             var projects = projectData.map(function (projects) {
                 var projectImage = 'img/' + projects.image;
                 return (
-                    <Col>
+                    <Col key={projects.title}>
                         <Card border="light" key={projects.title}>
                             <Card.Img variant="top" src={projectImage} className='projectImg' />
                             <Card.Body>

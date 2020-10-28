@@ -67,8 +67,8 @@ function About() {
                                     Thank you for your time! Feel free to connect her on Linkedin!
                                 </p>
                                 <br />
-                                <ul class="list-inline dev-icons">
-                                    <li class="list-inline-item">
+                                <ul className="list-inline dev-icons">
+                                    <li className="list-inline-item">
                                         <OverlayTrigger
                                             placement="top"
                                             delay={{ show: 250, hide: 400 }}
@@ -77,7 +77,7 @@ function About() {
                                             <a href="https://github.com/roukell" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/64/github.png" alt='github' /></a>
                                         </OverlayTrigger>
                                     </li>
-                                    <li class="list-inline-item">
+                                    <li className="list-inline-item">
                                         <OverlayTrigger
                                             placement="top"
                                             delay={{ show: 250, hide: 400 }}
@@ -86,7 +86,7 @@ function About() {
                                             <a href="https://www.linkedin.com/in/yilingmelodylo/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/cute-clipart/64/000000/linkedin.png" alt='linkedin' /></a>
                                         </OverlayTrigger>
                                     </li>
-                                    <li class="list-inline-item">
+                                    <li className="list-inline-item">
                                         <OverlayTrigger
                                             placement="top"
                                             delay={{ show: 250, hide: 400 }}
@@ -95,7 +95,7 @@ function About() {
                                             <a href="mailto:yiling.melody.lo@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/cute-clipart/64/000000/email.png" alt='email' /></a>
                                         </OverlayTrigger>
                                     </li>
-                                    <li class="list-inline-item">
+                                    <li className="list-inline-item">
                                         <OverlayTrigger
                                             placement="top"
                                             delay={{ show: 250, hide: 400 }}
@@ -106,41 +106,41 @@ function About() {
                                     </li>
                                 </ul>
 
-                                <section class="resume-section" id="skills">
-                                    <div class="resume-section-content">
-                                        <h3 class="subheading mb-3">Programming Languages & Tools</h3>
-                                        <ul class="list-inline dev-icons">
-                                            <li class="list-inline-item">
+                                <section className="resume-section" id="skills">
+                                    <div className="resume-section-content">
+                                        <h3 className="subheading mb-3">Programming Languages & Tools</h3>
+                                        <ul className="list-inline dev-icons">
+                                            <li className="list-inline-item">
                                                 <img src="https://img.icons8.com/color/48/000000/html-5.png" alt='html5' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" alt='css3' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt='javascript' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt='jquery' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/react-native.png" alt='react' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/nodejs.png" alt='nodejs' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt='bootstrap' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/npm.png" alt='npm' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" alt='mysql' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/mongodb.png" alt='mongodb' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/nolan/64/api-settings.png" alt='api' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/json--v1.png" alt='json' /></li>
-                                            <li class="list-inline-item"><img src="https://img.icons8.com/color/48/000000/heroku.png" alt='heroku' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" alt='css3' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt='javascript' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt='jquery' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/react-native.png" alt='react' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/nodejs.png" alt='nodejs' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt='bootstrap' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/npm.png" alt='npm' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" alt='mysql' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/mongodb.png" alt='mongodb' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/nolan/64/api-settings.png" alt='api' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/json--v1.png" alt='json' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/heroku.png" alt='heroku' /></li>
                                         </ul>
 
-                                        <ul class="fa-ul mb-0">
+                                        <ul className="fa-ul mb-0">
                                             <li>
-                                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                                <span className="fa-li"><i className="fas fa-check"></i></span>
                                                 Mobile-First, Responsive Design
                                             </li>
                                             <li>
-                                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                                <span className="fa-li"><i className="fas fa-check"></i></span>
                                                 Cross Browser Testing & Debugging
                                             </li>
                                             <li>
-                                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                                <span className="fa-li"><i className="fas fa-check"></i></span>
                                                 Cross Functional Teams
                                             </li>
                                             <li>
-                                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                                <span className="fa-li"><i className="fas fa-check"></i></span>
                                                 Relational and Non-relational Database
                                             </li>
                                         </ul>
