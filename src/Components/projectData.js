@@ -17,7 +17,7 @@ const projectData = [
     },
     {
         'title': 'V-Bloggers Around You',
-        'description': 'Find v-bloggers around your local area to help promoting your business',
+        'description': 'V-bloggers Around You allows business owners to find video influencers around a desired location to promote their business. It also helps them to have a better perspective of their product market, in order to improve the leads and sales.',
         'github': 'https://github.com/roukell/vbloggers_around_you',
         'deployedApp': 'https://roukell.github.io/vbloggers_around_you/',
         'image': 'v_bloggers_screenshot.png',
@@ -37,11 +37,11 @@ const projectData = [
         'github': 'https://github.com/roukell/employee_directory',
         'deployedApp': 'https://roukell.github.io/employee_directory/',
         'image': 'employee_directory_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, Bootstrap, gh-pages'
+        'technology':'HTML, CSS, JavaScript, React, Bootstrap, gh-pages'
     },
     {
         'title': 'Burger Logger',
-        'description': 'Burger Logger is a restaurant app that allow users to enter their favourite burger name.',
+        'description': 'Burger Logger is a restaurant app that allow users to enter their favourite burger name. This is a backend only project.',
         'github': 'https://github.com/roukell/burger_logger',
         'deployedApp': 'https://serene-hamlet-38122.herokuapp.com/',
         'image': 'burger_logger.png',
@@ -53,11 +53,11 @@ const projectData = [
         'github': 'https://github.com/roukell/weather_dashboard',
         'deployedApp': 'https://roukell.github.io/weather_dashboard/',
         'image': 'weather_dashboard_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, Moment.js'
+        'technology':'HTML, CSS, JavaScript, JQuery, Moment.js, weather API'
     },
     {
         'title': 'Online Quiz',
-        'description': 'Test your HTML, CSS, Javascript knowledge',
+        'description': 'Online Quiz tests your basic HTML, CSS, JavaScript knowledge.',
         'github': 'https://github.com/roukell/online_quiz',
         'deployedApp': 'https://roukell.github.io/online_quiz/',
         'image': 'online_quiz_screenshot.png',
