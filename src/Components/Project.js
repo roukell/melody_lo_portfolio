@@ -17,6 +17,9 @@ class Projects extends Component {
                                 <Card.Text>
                                     {projects.description}
                                 </Card.Text>
+                                <Card.Text>
+                                 Technologies used: {projects.technology}
+                                </Card.Text>
                                 <Card.Link href={projects.github} target="_blank" rel="noopener noreferrer">GitHub</Card.Link>
                                 <Card.Link href={projects.deployedApp} target="_blank" rel="noopener noreferrer">Deployed Application</Card.Link>
                             </Card.Body>
