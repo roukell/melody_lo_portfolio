@@ -45,7 +45,7 @@ const projectData = [
         'github': 'https://github.com/roukell/burger_logger',
         'deployedApp': 'https://serene-hamlet-38122.herokuapp.com/',
         'image': 'burger_logger.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, Express handlebars, mySQL'
+        'technology':'HTML, CSS, JavaScript, Node.js, Express, Express handlebars, MySQL'
     },
     {
         'title': 'Weather Dashboard',
