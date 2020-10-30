@@ -13,7 +13,7 @@ const projectData = [
         'github': 'https://github.com/roukell/Want-to-Watch-Series-Manager',
         'deployedApp': 'https://damp-dusk-40026.herokuapp.com/',
         'image': 'movie_manager_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, EJS, MySQL, Sequelize ORM, Heroku, Dialogflow, omdb API, JQuery, Passport, Bootstrap'
+        'technology':'HTML, CSS, JavaScript, Node.js, Express, EJS, MySQL, Sequelize ORM, Heroku, Dialogflow, omdb API, jQuery, Passport, Bootstrap'
     },
     {
         'title': 'V-Bloggers Around You',
@@ -21,7 +21,7 @@ const projectData = [
         'github': 'https://github.com/roukell/vbloggers_around_you',
         'deployedApp': 'https://roukell.github.io/vbloggers_around_you/',
         'image': 'v_bloggers_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, JQuery, Google Map API, Youtube API, Foundation Framework, Canva'
+        'technology':'HTML, CSS, JavaScript, jQuery, Google Map API, Youtube API, Foundation Framework, Canva'
     },
     {
         'title': 'Google Books Search',
@@ -53,7 +53,7 @@ const projectData = [
         'github': 'https://github.com/roukell/weather_dashboard',
         'deployedApp': 'https://roukell.github.io/weather_dashboard/',
         'image': 'weather_dashboard_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, JQuery, Moment.js, weather API'
+        'technology':'HTML, CSS, JavaScript, jQuery, Moment.js, weather API'
     },
     {
         'title': 'Online Quiz',
