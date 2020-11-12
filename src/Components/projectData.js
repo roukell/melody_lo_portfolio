@@ -5,7 +5,7 @@ const projectData = [
         'github': 'https://github.com/roukell/fruits-ecom',
         'deployedApp': 'https://nameless-oasis-57757.herokuapp.com/',
         'image': 'fruit-ecom.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, Passport local Mongoose, axios, React router DOM, React Ticker, JSON web token, Express-session'
+        'technology':'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, Passport local Mongoose, axios, React router DOM, React Ticker, JSON web token, Express-session, Dateformat'
     },
     {
         'title': 'Want to Watch Movie Manager',
