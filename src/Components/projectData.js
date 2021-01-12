@@ -1,5 +1,21 @@
 const projectData = [
     {
+        'title': 'Trillo',
+        'description': 'Trillo is one of the study projects in Advanced CSS and Sass course (project 2). The main focus of the project is to master flexbox. It is a trip booking website with beautiful layout using flexbox.',
+        'github': 'https://github.com/roukell/trillo',
+        'deployedApp': 'https://roukell.github.io/trillo/',
+        'image': 'trillo.png',
+        'technology':'HTML, CSS, Sass'
+    },
+    {
+        'title': 'Natours',
+        'description': 'Natours is one of the study projects in Advanced CSS and Sass course (project 1). The main focus of the project is to master Sass, architecture, responsive web design, and other CSS tricks. It is a tour booking website with amazing layout and animation. ',
+        'github': 'https://github.com/roukell/natours',
+        'deployedApp': 'https://roukell.github.io/natours/',
+        'image': 'natours.png',
+        'technology':'HTML, CSS, Sass'
+    },
+    {
         'title': 'Pure Fruit: E-commerce Website For Pre-ordering Products',
         'description': 'Pure Fruit provides customers a website for product references and order placement. It also has an admin platform which allows business owners to handle orders and customer information seamlessly.',
         'github': 'https://github.com/roukell/fruits-ecom',
