@@ -10,24 +10,27 @@ function About() {
 
     return (
         <div>
-            <Carousel activeIndex={index} onSelect={handleSelect} className='carouselContainer'>
-
+            <Carousel
+                activeIndex={index}
+                onSelect={handleSelect}
+                className='carouselContainer'
+            >
                 <Carousel.Item>
                     <div>
                         <img
-                            className="d-block w-90"
+                            className="d-block w-70"
                             src='https://raw.githubusercontent.com/roukell/temp_portfolio/master/public/img/portfolio.jpg'
                             alt="portfolioImg"
                         />
                         <Carousel.Caption>
-                            <p style={{color:'black'}}>Melody at a shopping mall</p>
+                            <p style={{ color: 'black' }}>Melody at a shopping mall</p>
                         </Carousel.Caption>
                     </div>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-90"
+                        className="d-block w-70"
                         src='https://raw.githubusercontent.com/roukell/temp_portfolio/master/public/img/turtle.jpeg'
                         alt="turtleImg"
                     />
@@ -111,19 +114,21 @@ function About() {
                                         <h3 className="subheading mb-3">Programming Languages & Tools</h3>
                                         <ul className="list-inline dev-icons">
                                             <li className="list-inline-item">
-                                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt='html5' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" alt='css3' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt='javascript' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt='jquery' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/react-native.png" alt='react' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/nodejs.png" alt='nodejs' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt='bootstrap' /></li>
+                                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt='HTML 5' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" alt='CSS 3' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/sass.png" alt='Sass' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt='JavaScript' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt='jQuery' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/react-native.png" alt='React' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/nodejs.png" alt='Node.js' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt='Bootstrap' /></li>
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/npm.png" alt='npm' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" alt='mysql' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/mongodb.png" alt='mongodb' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/nolan/64/api-settings.png" alt='api' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/json--v1.png" alt='json' /></li>
-                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/heroku.png" alt='heroku' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png" alt='MySQL' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/mongodb.png" alt='MongoDB' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/nolan/64/api-settings.png" alt='API' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/json--v1.png" alt='JSON' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/heroku.png" alt='Heroku' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/trello.png" alt='Trello' /></li>
                                         </ul>
 
                                         <ul className="fa-ul mb-0">

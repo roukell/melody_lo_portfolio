@@ -18,7 +18,7 @@ class Projects extends Component {
                                     {projects.description}
                                 </Card.Text>
                                 <Card.Text>
-                                 Technologies used: {projects.technology}
+                                    Technologies used: {projects.technology}
                                 </Card.Text>
                                 <Card.Link href={projects.github} target="_blank" rel="noopener noreferrer">GitHub</Card.Link>
                                 <Card.Link href={projects.deployedApp} target="_blank" rel="noopener noreferrer">Deployed Application</Card.Link>
@@ -34,7 +34,7 @@ class Projects extends Component {
             <div className='projectDiv'>
                 <h1 className='projectTitle'>Projects</h1>
                 <CardDeck className="justify-content-md-center">
-                    <Row xs={1} md={3} >
+                    <Row xs={1} md={2} lg={3}>
                         {projects}
                     </Row>
                 </CardDeck>

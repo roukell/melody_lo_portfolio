@@ -5,7 +5,7 @@ const projectData = [
         'github': 'https://github.com/roukell/nexter',
         'deployedApp': 'https://roukell.github.io/nexter/',
         'image': 'nexter.png',
-        'technology':'HTML, CSS, Sass'
+        'technology': 'HTML, CSS, Sass'
     },
     {
         'title': 'Trillo',
@@ -13,7 +13,7 @@ const projectData = [
         'github': 'https://github.com/roukell/trillo',
         'deployedApp': 'https://roukell.github.io/trillo/',
         'image': 'trillo.png',
-        'technology':'HTML, CSS, Sass'
+        'technology': 'HTML, CSS, Sass'
     },
     {
         'title': 'Natours',
@@ -21,7 +21,7 @@ const projectData = [
         'github': 'https://github.com/roukell/natours',
         'deployedApp': 'https://roukell.github.io/natours/',
         'image': 'natours.png',
-        'technology':'HTML, CSS, Sass'
+        'technology': 'HTML, CSS, Sass'
     },
     {
         'title': 'Pure Fruit: E-commerce Website For Pre-ordering Products',
@@ -29,7 +29,7 @@ const projectData = [
         'github': 'https://github.com/roukell/fruits-ecom',
         'deployedApp': 'https://nameless-oasis-57757.herokuapp.com/',
         'image': 'fruit-ecom.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, Passport local Mongoose, axios, React router DOM, React Ticker, JSON web token, Express-session, Dateformat'
+        'technology': 'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, Passport local Mongoose, axios, React router DOM, React Ticker, JSON web token, Express-session, Dateformat'
     },
     {
         'title': 'Want to Watch Movie Manager',
@@ -37,7 +37,7 @@ const projectData = [
         'github': 'https://github.com/roukell/Want-to-Watch-Series-Manager',
         'deployedApp': 'https://damp-dusk-40026.herokuapp.com/',
         'image': 'movie_manager_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, EJS, MySQL, Sequelize ORM, Heroku, Dialogflow, omdb API, jQuery, Passport, Bootstrap'
+        'technology': 'HTML, CSS, JavaScript, Node.js, Express, EJS, MySQL, Sequelize ORM, Heroku, Dialogflow, omdb API, jQuery, Passport, Bootstrap'
     },
     {
         'title': 'V-Bloggers Around You',
@@ -45,7 +45,7 @@ const projectData = [
         'github': 'https://github.com/roukell/vbloggers_around_you',
         'deployedApp': 'https://roukell.github.io/vbloggers_around_you/',
         'image': 'v_bloggers_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, jQuery, Google Map API, Youtube API, Foundation Framework, Canva'
+        'technology': 'HTML, CSS, JavaScript, jQuery, Google Map API, Youtube API, Foundation Framework, Canva'
     },
     {
         'title': 'Google Books Search',
@@ -53,7 +53,7 @@ const projectData = [
         'github': 'https://github.com/roukell/google_book_search',
         'deployedApp': 'https://pure-sands-91326.herokuapp.com/',
         'image': 'google_books_search.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, axios, React router DOM, Google Books API, Bootstrap'
+        'technology': 'HTML, CSS, JavaScript, Node.js, Express, MongoDB, Mongoose, React, Heroku, axios, React router DOM, Google Books API, Bootstrap'
     },
     {
         'title': 'Employee Directory',
@@ -61,7 +61,7 @@ const projectData = [
         'github': 'https://github.com/roukell/employee_directory',
         'deployedApp': 'https://roukell.github.io/employee_directory/',
         'image': 'employee_directory_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, React, Bootstrap, gh-pages'
+        'technology': 'HTML, CSS, JavaScript, React, Bootstrap, gh-pages'
     },
     {
         'title': 'Burger Logger',
@@ -69,7 +69,7 @@ const projectData = [
         'github': 'https://github.com/roukell/burger_logger',
         'deployedApp': 'https://serene-hamlet-38122.herokuapp.com/',
         'image': 'burger_logger.png',
-        'technology':'HTML, CSS, JavaScript, Node.js, Express, Express handlebars, MySQL'
+        'technology': 'HTML, CSS, JavaScript, Node.js, Express, Express handlebars, MySQL'
     },
     {
         'title': 'Weather Dashboard',
@@ -77,7 +77,7 @@ const projectData = [
         'github': 'https://github.com/roukell/weather_dashboard',
         'deployedApp': 'https://roukell.github.io/weather_dashboard/',
         'image': 'weather_dashboard_screenshot.png',
-        'technology':'HTML, CSS, JavaScript, jQuery, Moment.js, weather API'
+        'technology': 'HTML, CSS, JavaScript, jQuery, Moment.js, weather API'
     },
     {
         'title': 'Online Quiz',
@@ -85,7 +85,7 @@ const projectData = [
         'github': 'https://github.com/roukell/online_quiz',
         'deployedApp': 'https://roukell.github.io/online_quiz/',
         'image': 'online_quiz_screenshot.png',
-        'technology':'HTML, CSS, JavaScript'
+        'technology': 'HTML, CSS, JavaScript'
     }
 ];
 
