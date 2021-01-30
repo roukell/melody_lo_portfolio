@@ -1,7 +1,15 @@
 const projectData = [
     {
+        'title': 'Nexter',
+        'description': 'Nexter is one of the study projects in Advanced CSS and Sass course (project 3). The main focus of the project is to master Grid. It is a real estate website with beautiful layouts mainly using Grid.',
+        'github': 'https://github.com/roukell/nexter',
+        'deployedApp': 'https://roukell.github.io/nexter/',
+        'image': 'nexter.png',
+        'technology':'HTML, CSS, Sass'
+    },
+    {
         'title': 'Trillo',
-        'description': 'Trillo is one of the study projects in Advanced CSS and Sass course (project 2). The main focus of the project is to master flexbox. It is a trip booking website with beautiful layout using flexbox.',
+        'description': 'Trillo is one of the study projects in Advanced CSS and Sass course (project 2). The main focus of the project is to master flexbox. It is a trip booking website with beautiful layouts using flexbox.',
         'github': 'https://github.com/roukell/trillo',
         'deployedApp': 'https://roukell.github.io/trillo/',
         'image': 'trillo.png',
