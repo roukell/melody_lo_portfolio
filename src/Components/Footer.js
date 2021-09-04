@@ -5,7 +5,7 @@ const Footer = () =>  (
     <>
         <Container fluid className='footerContainer'>
           <div className='footerDiv'>
-           <p>&copy; 2020 Melody Lo. All Rights Reserved.</p>
+           <p>&copy; 2021 Melody Lo. All Rights Reserved.</p>
           </div>
         </Container>
     </>
