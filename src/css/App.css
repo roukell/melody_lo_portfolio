@@ -112,6 +112,10 @@
   height: auto;
 }
 
+.aws-badges {
+  width: 18%;
+}
+
 @media (max-width: 576px) {
   .carouselContainer {
     display: none;
@@ -140,5 +144,9 @@
     justify-content: center;
     text-align: center;
     font-size: 25px;
+  }
+
+  .aws-badges {
+    width: 120px;
   }
 }

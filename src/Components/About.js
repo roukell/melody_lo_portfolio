@@ -48,10 +48,10 @@ function About() {
                             <Card.Body>
                                 <h3>Learn more about Melody</h3>
                                 <p>
-                                    Melody is a DevOps Engineer experienced in developing web applications, automation, and AWS. She always pay high attention to detail and have created several programs with her proven problem solving ability.
+                                    Melody is a DevOps Engineer experienced in developing web applications, test automation, and AWS. She always pay high attention to detail and have created several programs with her proven problem solving ability.
                                     <br />
                                     <br />
-                                    She is highly motivated to optimise both the productivity of developers and the reliability of operations, and aim to bring DevOps best practices to the table, including CI/CD, microservices, infrastructure as code, monitoring and logging, efficient communication and collaboration.
+                                    She is highly motivated to optimise both the productivity of developers and the reliability of operations, and aim to bring DevOps best practices to the table, including CI/CD, microservices, infrastructure as code, monitoring, logging, efficient communication and collaboration.
                                     <br />
                                     <br />
                                     Her pervious career in medical imaging Nuclear Medicine for seven years has helped her to develop many soft skills.
@@ -111,8 +111,7 @@ function About() {
                                     <div className="resume-section-content">
                                         <h3 className="subheading mb-3">Programming Languages, Tools and OS</h3>
                                         <ul className="list-inline dev-icons">
-                                            <li className="list-inline-item">
-                                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt='HTML 5' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/html-5.png" alt='HTML 5' /></li>
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/css3.png" alt='CSS 3' /></li>
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/sass.png" alt='Sass' /></li>
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/javascript.png" alt='JavaScript' /></li>
@@ -158,6 +157,15 @@ function About() {
                                                 Cloud
                                             </li>
                                         </ul>
+
+                                    </div>
+                                </section>
+                                <br />
+                                <section className="resume-section" id="certification">
+                                    <div className="resume-section-content">
+                                        <h3 className="subheading mb-3">Certificates</h3>
+                                        <img className="aws-badges" src="img/aws-certified-cloud-practitioner.png" alt='aws-certified-cloud-practitioner.png' />
+                                        <img className="aws-badges" src="img/aws-certified-solutions-architect-associate.png" alt='aws-certified-solutions-architect-associate.png' />
                                     </div>
                                 </section>
                             </Card.Body>
