@@ -51,12 +51,7 @@ const HomePage = () => (
 							},
 							"retina_detect": true
 						}} />
-					<h1>Full Stack Web Developer experience in
-             <br />
-            designing and developing web applications
-            <br />
-					</h1>
-
+					<h1>DevOps Engineer with web development, automation, and AWS experience</h1>
 				</div>
 			</Container>
 		</Jumbotron>

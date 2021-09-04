@@ -48,26 +48,24 @@ function About() {
                             <Card.Body>
                                 <h3>Learn more about Melody</h3>
                                 <p>
-                                    Melody is a Full Stack Web Developer experience in designing and developing web applications by using React. She always pay high attention to detail and have created several functional websites with her proven problem solving skills.
+                                    Melody is a DevOps Engineer experienced in developing web applications, automation, and AWS. She always pay high attention to detail and have created several programs with her proven problem solving ability.
                                     <br />
                                     <br />
-                                    She has strong time management skills with the ability to prioritise workload in order to meet strict deadlines. Melody is also experienced in communicating and maintaining relationships with key internal and external stakeholders.
+                                    She is highly motivated to optimise both the productivity of developers and the reliability of operations, and aim to bring DevOps best practices to the table, including CI/CD, microservices, infrastructure as code, monitoring and logging, efficient communication and collaboration.
                                     <br />
                                     <br />
-                                    Melody is highly motivated to develop interactive websites that enhances the user experience by providing a clean, simple and intuitive interface. She has recently developed an application to solve employee directory problems.
-                                    <br />
-                                    <br />
-                                    Her goal to develop creative and functional website experiences for people, utilising latest technologies and innovative problem solving mindset.
+                                    Her pervious career in medical imaging Nuclear Medicine for seven years has helped her to develop many soft skills.
+                                    She has strong time management skills with the ability to prioritise workload in order to meet strict deadline. She is experienced in communicating and maintaining relationships with key internal and external stakeholders.
                                     <br />
                                     <br />
                                     When she is not coding...
                                     <br />
                                     She enjoys traveling, cooking, diving, and doing weight training.
                                     <br />
-                                    She loves animation, digital and graphic design, and aquarium.
+                                    She loves animation, manga, and aquarium.
                                     <br />
                                     <br />
-                                    Thank you for your time! Feel free to connect her on Linkedin!
+                                    Thank you for your time. Feel free to connect her on Linkedin.
                                 </p>
                                 <br />
                                 <ul className="list-inline dev-icons">
@@ -111,7 +109,7 @@ function About() {
 
                                 <section className="resume-section" id="skills">
                                     <div className="resume-section-content">
-                                        <h3 className="subheading mb-3">Programming Languages & Tools</h3>
+                                        <h3 className="subheading mb-3">Programming Languages, Tools and OS</h3>
                                         <ul className="list-inline dev-icons">
                                             <li className="list-inline-item">
                                                 <img src="https://img.icons8.com/color/48/000000/html-5.png" alt='HTML 5' /></li>
@@ -129,24 +127,35 @@ function About() {
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/json--v1.png" alt='JSON' /></li>
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/heroku.png" alt='Heroku' /></li>
                                             <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/trello.png" alt='Trello' /></li>
+
+                                            {/* start from here */}
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/jira.png" alt='Jira' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/confluence--v2.png" alt='Confluence' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt='Java' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/fluency/48/000000/selenium-test-automation.png" alt='Selenium' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt='AWS' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/plasticine/48/000000/bash.png" alt='Bash' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/docker.png" alt='Docker' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/linux.png" alt='Linux' /></li>
+                                            <li className="list-inline-item"><img src="https://img.icons8.com/color/48/000000/microsoft.png" alt='Windows' /></li>
                                         </ul>
 
                                         <ul className="fa-ul mb-0">
                                             <li>
                                                 <span className="fa-li"><i className="fas fa-check"></i></span>
-                                                Mobile-First, Responsive Design
+                                                CI/CD
                                             </li>
                                             <li>
                                                 <span className="fa-li"><i className="fas fa-check"></i></span>
-                                                Cross Browser Testing & Debugging
+                                                Automation
                                             </li>
                                             <li>
                                                 <span className="fa-li"><i className="fas fa-check"></i></span>
-                                                Cross Functional Teams
+                                                Infrastructure as code
                                             </li>
                                             <li>
                                                 <span className="fa-li"><i className="fas fa-check"></i></span>
-                                                Relational and Non-relational Database
+                                                Cloud
                                             </li>
                                         </ul>
                                     </div>
