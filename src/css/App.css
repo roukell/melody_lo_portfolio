@@ -34,7 +34,7 @@ body {
   flex: 1;
   width: 65%;
   overflow-x: hidden;
-  padding: 0 0 64px;
+  padding: 0;
   background: linear-gradient(180deg, #f7faff 0%, #edf3ff 100%);
 }
 
@@ -123,7 +123,7 @@ body {
 
 .projectDiv {
   margin: 0;
-  padding: 0 0 64px;
+  padding: 0;
 }
 
 .projectRow {
@@ -190,7 +190,7 @@ body {
 
   .contentArea {
     width: 100%;
-    padding: 0 0 48px;
+    padding: 0;
   }
 
   .navLinks .nav-link {
