@@ -4,31 +4,31 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from './Components/Home';
 import Navbar from './Components/Navbars';
 import About from './Components/About';
 import Project from './Components/Project';
-import Footer from './Components/Footer';
 
 const App = () => {
 
   return (
     <Router basename='/'>
-      <Navbar className='stickyNavbar' />
-      <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/">
-          <Home />
-          <Project />
-        </Route>
-        <Route path="/project">
-          <Home />
-          <Project />
-        </Route>
-      </Switch>
-      <Footer />
+      <div className='appLayout'>
+        <Navbar />
+        <main className='contentArea'>
+          <Switch>
+            <Route path="/project">
+              <Project />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <Project />
+              <About />
+            </Route>
+          </Switch>
+        </main>
+      </div>
     </ Router>
   )
 }

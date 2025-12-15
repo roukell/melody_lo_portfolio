@@ -1,46 +1,40 @@
 import React, { Component } from 'react';
-import { CardDeck, Card, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import projectData from './projectData';
 
 class Projects extends Component {
     render() {
 
-        if (projectData) {
-            var projects = projectData.map(function (projects) {
-                var projectImage = 'img/' + projects.image;
+        const tiles = projectData
+            .slice(0, 6)
+            .map((project) => {
+                const projectImage = 'img/' + project.image;
+                const targetLink = project.deployedApp || project.github;
+
                 return (
-                    <Col key={projects.title}>
-                        <Card border="light" key={projects.title}>
-                            <Card.Img variant="top" src={projectImage} className='projectImg' />
-                            <Card.Body>
-                                <Card.Title>{projects.title}</Card.Title>
-                                <Card.Text>
-                                    {projects.description}
-                                </Card.Text>
-                                <Card.Text>
-                                    Technologies used: {projects.technology}
-                                </Card.Text>
-                                <Card.Link href={projects.github} target="_blank" rel="noopener noreferrer">GitHub</Card.Link>
-                                <Card.Link href={projects.deployedApp} target="_blank" rel="noopener noreferrer">Deployed Application</Card.Link>
-                            </Card.Body>
-                        </Card>
-                        <br />
+                    <Col key={project.title} className='projectTile'>
+                        <a
+                            href={targetLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className='projectImageLink'
+                        >
+                            <img src={projectImage} alt={project.title} className='projectImg' />
+                        </a>
                     </Col>
-                )
-            })
+                );
+            });
+
+        const rows = [];
+        for (let i = 0; i < tiles.length && rows.length < 2; i += 3) {
+            rows.push(
+                <Row key={i} xs={1} md={2} lg={3} className='projectRow'>
+                    {tiles.slice(i, i + 3)}
+                </Row>
+            );
         }
 
-        return (
-            <div className='projectDiv'>
-                <h1 className='projectTitle'>Projects</h1>
-                <CardDeck className="justify-content-md-center">
-                    <Row xs={1} md={2} lg={3}>
-                        {projects}
-                    </Row>
-                </CardDeck>
-                <p className='projectTitle'></p>
-            </div>
-        );
+        return <div className='projectDiv'>{rows}</div>;
     }
 }
 
