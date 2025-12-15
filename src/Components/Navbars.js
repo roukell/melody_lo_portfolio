@@ -18,7 +18,7 @@ const Navbars = () => (
 						</a>
 					</OverlayTrigger>
 					<OverlayTrigger placement='top' delay={{ show: 200, hide: 150 }} overlay={<Tooltip id='nav-linkedin'>LinkedIn</Tooltip>}>
-						<a href='https://www.linkedin.com/in/yilingmelodylo/' target='_blank' rel='noopener noreferrer'>
+						<a href='https://www.linkedin.com/in/melodylo-in/' target='_blank' rel='noopener noreferrer'>
 							<img className='navContactIcon' src='https://img.icons8.com/cute-clipart/64/000000/linkedin.png' alt='LinkedIn icon' />
 						</a>
 					</OverlayTrigger>

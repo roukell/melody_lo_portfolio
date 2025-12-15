@@ -4,11 +4,11 @@ import { Container, Col, Row, Card, Badge } from 'react-bootstrap';
 function About() {
 
     const strengths = [
-        'AWS-first architecture',
+        'AWS architecture',
         'CI/CD acceleration',
         'Infrastructure as code',
         'Observability and insights',
-        'Automation leadership'
+        'Automation'
     ];
 
     const experience = [
@@ -63,7 +63,7 @@ function About() {
             ]
         },
         {
-            company: 'Medical Imaging Network',
+            company: 'Medical Imaging',
             location: 'Australia · Nuclear Medicine Technologist',
             period: 'Jan 2014 – Feb 2021',
             highlights: [
@@ -99,9 +99,9 @@ function About() {
                         <Card className='aboutPanel'>
                             <Card.Body>
                                 <span className='aboutEyebrow'>Profile Snapshot</span>
-                                <h2 className='aboutHeadline'>I craft calm, automated delivery pipelines for growing platforms.</h2>
+                                <h4 className='aboutHeadline'>Focus on automated and reliable delivery</h4>
                                 <p className='aboutParagraph'>
-                                    From healthcare labs to high-growth teams, I keep software ships steady by codifying infrastructure, taming release pipelines, and translating business needs into resilient AWS foundations. My toolkit blends Terraform, containers, and serverless patterns so teams can deploy with confidence and recover faster when unexpected issues appear.
+                                    I pair AWS certifications with deep automation experience to streamline how teams ship software. I design cloud-native foundations, build CI/CD flows with CodeBuild, CodePipeline, GitLab CI, and Jenkins, and tune Docker + Kubernetes stacks so they scale without losing stability. I codify infrastructure through Terraform and CloudFormation, shape architectures for security and resilience, and keep serverless workloads tidy with well-tested Python. Whether I am debugging in Linux terminals or coaching product teams through release rituals, I look for ways to remove manual effort, surface the right telemetry, and guide projects smoothly into production.
                                 </p>
                                 <div className='aboutStrengths'>
                                     {strengths.map((item) => (
@@ -116,8 +116,9 @@ function About() {
                             <Card.Body>
                                 <h5 className='aboutSectionTitle'>Certifications</h5>
                                 <div className='aboutCerts'>
-                                    <img className='aws-badges' src='img/aws-certified-cloud-practitioner.png' alt='AWS Certified Cloud Practitioner badge' />
+                                    <img className='aws-badges' src='img/aws-certified-devops-engineer-professional.png' alt='AWS Certified DevOps Engineer Professional badge' />
                                     <img className='aws-badges' src='img/aws-certified-solutions-architect-associate.png' alt='AWS Certified Solutions Architect Associate badge' />
+                                    <img className='aws-badges' src='img/aws-certified-cloud-practitioner.png' alt='AWS Certified Cloud Practitioner badge' />
                                 </div>
                             </Card.Body>
                         </Card>

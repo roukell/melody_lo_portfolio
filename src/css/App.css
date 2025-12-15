@@ -193,7 +193,7 @@ body {
 }
 
 .aboutHeadline {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -224,6 +224,7 @@ body {
   font-weight: 700;
   margin-bottom: 16px;
   color: #0f172a;
+  text-align: center;
 }
 
 .aboutCerts {
@@ -231,6 +232,7 @@ body {
   flex-direction: column;
   gap: 16px;
   margin-bottom: 24px;
+  align-items: center;
 }
 
 .aboutCerts .aws-badges {
