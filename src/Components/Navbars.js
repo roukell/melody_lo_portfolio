@@ -5,7 +5,7 @@ const Navbars = () => (
 	<aside className='sideNavbar'>
 		<div>
 			<p className='navBrand'>Melody Lo</p>
-			<p className='navSubtitle'>AWS DevOps Engineer</p>
+			<p className='navSubtitle'>DevOps Engineer</p>
 			<Nav className='flex-column navLinks'>
 				<Nav.Link href='#project'>Projects</Nav.Link>
 				<Nav.Link href='#about'>About</Nav.Link>
