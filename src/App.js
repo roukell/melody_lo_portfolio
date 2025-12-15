@@ -4,11 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from './components/Home';
-import Navbar from './components/Navbars';
-import About from './components/About';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import Home from './Components/Home';
+import Navbar from './Components/Navbars';
+import About from './Components/About';
+import Project from './Components/Project';
+import Footer from './Components/Footer';
 
 const App = () => {
 
