@@ -24,7 +24,6 @@ const App = () => {
             </Route>
             <Route path="/">
               <Project />
-              <About />
             </Route>
           </Switch>
         </main>
