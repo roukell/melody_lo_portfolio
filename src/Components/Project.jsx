@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import projectData from './projectData';
+import projectData from '../data/project';
 
 class Projects extends Component {
     render() {

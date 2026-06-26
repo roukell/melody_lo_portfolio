@@ -7,8 +7,9 @@ const Navbars = () => (
 			<p className='navBrand'>Melody Lo</p>
 			<p className='navSubtitle'>DevOps Engineer</p>
 			<Nav className='flex-column navLinks'>
+                <Nav.Link href='#about'>About</Nav.Link>
 				<Nav.Link href='#project'>Projects</Nav.Link>
-				<Nav.Link href='#about'>About</Nav.Link>
+				{/* <Nav.Link href='#art'>Art</Nav.Link> */}
 			</Nav>
 			<div className='navContacts'>
 				<div className='navContactIcons'>

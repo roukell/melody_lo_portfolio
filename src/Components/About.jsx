@@ -13,11 +13,21 @@ function About() {
 
     const experience = [
         {
+            company: 'ABC',
+            location: 'Sydney · DevOps Engineer',
+            period: 'April 2026 – Present',
+            highlights: [
+                'Debug and restore broken CI/CD pipelines, resolving failed stages quickly to keep releases on track.',
+                'Implemented an end-to-end log ingestion flow from CloudWatch Logs through Firehose and Lambda transformations into Splunk.',
+                'Built and tuned Lambda-based log transformation logic to improve event quality, consistency, and searchability in Splunk.'
+            ]
+        },
+        {
             company: 'DataWorks Group',
             location: 'Sydney · DevOps Engineer',
-            period: 'May 2025 – Present',
+            period: 'May 2025 – April 2026',
             highlights: [
-                'Evolve Terraform blueprints so production stacks stay clean, secure, and repeatable.',
+                'Refactor and improve infrastructure as code with Terraform so production stacks stay clean, secure, and repeatable.',
                 'Rebuilt Lambda services in Python with clearer structure, tighter tests, and quicker cold starts.',
                 'Automated build, test, and release gates through CodeBuild and CodePipeline to shorten delivery loops.',
                 'Streamlined log intelligence by piping CloudWatch events into OpenSearch dashboards for live visibility.',
@@ -29,7 +39,7 @@ function About() {
             location: 'Sydney · DevOps Engineer',
             period: 'Jul 2024 – May 2025',
             highlights: [
-                'Introduced GitLab CI pipelines that standardised testing and deployments across squads.',
+                'Introduced GitLab CI pipelines that standardised testing and deployments across teams.',
                 'Assimilated Python in weeks to extend core services and refresh internal libraries.',
                 'Rescued stalled delivery workstreams by clarifying requirements and shipping them to production.'
             ]
@@ -52,14 +62,6 @@ function About() {
             highlights: [
                 'Built Selenium suites for UI and PDF validation, raising regression confidence.',
                 'Embedded testing practices early in agile ceremonies using Jira and peer reviews.'
-            ]
-        },
-        {
-            company: 'Passingdoor',
-            location: 'Sydney · Frontend Developer (Intern)',
-            period: 'Nov 2020 – Feb 2021',
-            highlights: [
-                'Delivered React-based marketing pages with polished CSS-in-JS styling and API wiring.'
             ]
         },
         {
@@ -101,7 +103,7 @@ function About() {
                                 <span className='aboutEyebrow'>Profile Snapshot</span>
                                 <h4 className='aboutHeadline'>Focus on automated and reliable delivery</h4>
                                 <p className='aboutParagraph'>
-                                    I pair AWS certifications with deep automation experience to streamline how teams ship software. I design cloud-native foundations, build CI/CD flows with CodeBuild, CodePipeline, GitLab CI, and Jenkins, and tune Docker + Kubernetes stacks so they scale without losing stability. I codify infrastructure through Terraform and CloudFormation, shape architectures for security and resilience, and keep serverless workloads tidy with well-tested Python. Whether I am debugging in Linux terminals or coaching product teams through release rituals, I look for ways to remove manual effort, surface the right telemetry, and guide projects smoothly into production.
+                                    I enjoy helping teams ship software with less stress and more confidence. My background combines AWS expertise with hands-on automation, from building reliable CI/CD pipelines in CodeBuild, CodePipeline, GitLab CI, and Jenkins to shaping cloud infrastructure with AWS CDK, Terraform and CloudFormation. I work across Docker, Kubernetes and serverless Python services, with a strong focus on reliability, security, and clear observability. Whether I am troubleshooting in the terminal or partnering with teams on release planning, my goal is simple: remove manual effort, improve visibility, and keep delivery smooth.
                                 </p>
                                 <div className='aboutStrengths'>
                                     {strengths.map((item) => (
